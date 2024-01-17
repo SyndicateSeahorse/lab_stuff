@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T21:40:14.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Ra1uzMJLsYRu54UzBYjv" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T21:41:47.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="oSBr4Lc_XaO9p0PEk5it" version="22.1.20" type="github">
   <diagram name="Page-1" id="M_L0OaCK6lkP_OPm3K-d">
     <mxGraphModel dx="878" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,9 +7,9 @@
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-1" value="Is epitope on cell surface?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-3" value="Glycosylation" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="760" height="480" as="geometry">
-            <mxRectangle x="320" y="120" width="120" height="40" as="alternateBounds" />
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-3" value="Glycosylation" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="40" as="geometry">
+            <mxRectangle x="320" y="120" width="760" height="480" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-3" source="s_cjWv7X9Yk0BwZ2r4dS-5" target="s_cjWv7X9Yk0BwZ2r4dS-12">
@@ -48,6 +48,14 @@
         </mxCell>
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-15" value="Site is not glycosylation site" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-3">
           <mxGeometry x="460" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-23" value="Workflow diagram" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="760" height="480" as="geometry">
+            <mxRectangle x="320" y="200" width="120" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-26" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23">
+          <mxGeometry x="30" y="240" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
