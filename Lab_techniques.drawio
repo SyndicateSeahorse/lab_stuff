@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T22:25:28.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="z1VU9Q9dy5glF0fjs72c" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T22:27:13.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="5aDNeEI08OU0h6YQ9LHU" version="22.1.20" type="github">
   <diagram name="Page-1" id="M_L0OaCK6lkP_OPm3K-d">
-    <mxGraphModel dx="933" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1243" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,24 +32,22 @@
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-38" value="Expose cells to commercially available antibody with intact membranes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23">
           <mxGeometry x="330" y="150" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23" source="s_cjWv7X9Yk0BwZ2r4dS-38">
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23" source="s_cjWv7X9Yk0BwZ2r4dS-104">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23" source="s_cjWv7X9Yk0BwZ2r4dS-95" target="s_cjWv7X9Yk0BwZ2r4dS-97">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-101" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s_cjWv7X9Yk0BwZ2r4dS-99">
-          <mxGeometry x="-0.14" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-95" value="Is there a WB &lt;br&gt;signal?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23">
-          <mxGeometry x="595" y="140" width="120" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-102" value="Control: permeabilize membranes during AB exposure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23">
           <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23" source="s_cjWv7X9Yk0BwZ2r4dS-38" target="s_cjWv7X9Yk0BwZ2r4dS-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="155" as="sourcePoint" />
+            <mxPoint x="885" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-104" value="Detect using fluorescent microscopy or FACs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-23">
+          <mxGeometry x="470" y="165" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-96" value="Epitope is extracellular" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-60">
           <mxGeometry x="595" y="30" width="120" height="60" as="geometry" />
@@ -67,6 +65,17 @@
         </mxCell>
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-60" source="s_cjWv7X9Yk0BwZ2r4dS-36" target="s_cjWv7X9Yk0BwZ2r4dS-38">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-95" value="Is there a&amp;nbsp;&lt;br&gt;signal?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="s_cjWv7X9Yk0BwZ2r4dS-60">
+          <mxGeometry x="602.5" y="140" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="s_cjWv7X9Yk0BwZ2r4dS-60" source="s_cjWv7X9Yk0BwZ2r4dS-95" target="s_cjWv7X9Yk0BwZ2r4dS-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-101" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s_cjWv7X9Yk0BwZ2r4dS-99">
+          <mxGeometry x="-0.14" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="s_cjWv7X9Yk0BwZ2r4dS-3" value="Glycosylation" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="100" y="-10" width="120" height="40" as="geometry">
